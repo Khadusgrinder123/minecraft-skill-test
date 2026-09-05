@@ -28,7 +28,7 @@
 }
 
 [data-theme="light"] {
-  --bg: #d7e0cd;
+  --bg: #F5F5F5;
   --bg-grad: #d7e0cd 0%, #e7ecdf 55%, #cdd8c1 100%;
   --panel: #eef2ea;
   --slot: #ffffff;
@@ -293,10 +293,13 @@ body {
 
 .player-main { min-width: 0; }
 .player-name {
-  font-weight: 800;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 700;
   font-size: 1.05rem;
   letter-spacing: 0.2px;
-  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .player-sub { display: flex; align-items: center; gap: 0.5rem; margin-top: 0.3rem; }
 
